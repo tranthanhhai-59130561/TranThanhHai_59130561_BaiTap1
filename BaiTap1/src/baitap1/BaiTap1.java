@@ -40,9 +40,9 @@ public class BaiTap1 {
         lopHoc.themGV(gv2);
         lopHoc.themGV(gv2);
 
-        System.out.println("Danh sach hoc sinh:");
+        System.out.println("In danh sach hoc sinh: ");
         lopHoc.inDSHS();
-        System.out.println("Danh sach giao vien:");
+        System.out.println("In danh sach giao vien: ");
         lopHoc.inDSGV();
     }
     

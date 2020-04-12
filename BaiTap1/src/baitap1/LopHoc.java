@@ -4,30 +4,31 @@
  * and open the template in the editor.
  */
 package baitap1;
+import java.util.ArrayList;
 
 /**
  *
  * @author Admin
  */
 public class LopHoc {
-    private QLDS dsHS = new QLDS();
-    private QLDS dsGV = new QLDS();
+    private QLDS dshs = new QLDS();
+    private QLDS dsgv = new QLDS();
 
    public int themHS(HocSinh hocSinh){
-       dsHS.them( hocSinh);
+       dshs.them( hocSinh);
        return 1;
    }
    public int inDSHS(){
-      dsHS.inDS(dsHS.getDs());
+      dshs.inDS(dshs.getDs());
       return 1;
    }
 
     public int themGV(GiaoVien giaoVien){
-        dsGV.them( giaoVien);
+        dsgv.them( giaoVien);
         return 1;
     }
     public int  inDSGV(){
-        dsGV.inDS(dsGV.getDs());
+        dsgv.inDS(dsgv.getDs());
         return 1;
     }
 }
